@@ -20,6 +20,6 @@ function encrypt(){
 function uncrypt(){
     let unc_text = document.getElementById('txt_unc').value;
     unc_text=unc_text.replaceAll("enter","e").replaceAll('imes', 'i').replaceAll('ai', 'a').replaceAll('ober', 'o').replaceAll('ufat', 'u');
-    let un_output = document.getElementById('un_output');
+    let un_output = document.getElementById('output');
     un_output.innerHTML = unc_text;
 }
