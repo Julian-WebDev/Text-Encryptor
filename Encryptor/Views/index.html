@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryptor</title>
+    <link rel="stylesheet" href="../Styles/styles.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="h_container">
+            <div style="background: #a29bfe;">
+                <section id="nav_content">
+                    <h1 style="text-align: center; color: white;">Encryptor for everyone</h1>
+                </section>
+            </div>
+            <div>
+                <section id="text_content">
+                    <p>This is an exercise from Oracle One Education to improve our skills in areas such as programming and web layout.</p>
+                </section>
+            </div>
+        </div>
+    
+        <div class="c_container">
+            <div class="encrypter_area">
+                <section class="enc_content">
+                    <p>Enter your text to encrypt it</p>
+                    <textarea class="txt" id="txt_enc"></textarea>
+                    <button class="btn" onclick="encrypt()">Encrypt</button>
+                    <h2 id="output"></h2>
+                </section>
+            </div>
+            <div class="uncrypter_area">
+                <section class="enc_content">
+                    <p>Enter your text to uncrypt it</p>
+                    <textarea class="txt" id="txt_unc"></textarea>
+                    <button class="btn" onclick="uncrypt()">Uncrypt</button>
+                    <h2 id="un_output"></h2>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Scripts/index.js"></script>
+</body>
+</html>
