@@ -23,3 +23,15 @@ function uncrypt(){
     let un_output = document.getElementById('output');
     un_output.innerHTML = unc_text;
 }
+
+
+let textbox = document.getElementById('mi_input');
+let btn = document.getElementById('btn_encriptar');
+
+textbox.addEventListener('input', function(event) {
+    if (textbox.value.trim() !== '') {
+        btn.removeAttribute('disabled');
+    } else {
+        btn.setAttribute('disabled', 'disabled');
+    }
+});
